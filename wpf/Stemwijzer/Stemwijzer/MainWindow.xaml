@@ -1,0 +1,97 @@
+﻿<Window x:Class="Stemwijzer.MainWindow"
+
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stemwijzer"
+        mc:Ignorable="d"
+        Title="Stemwijzer" Height="450" Width="800">
+    <Grid Background="#8D99AE">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" Grid.Column="2" Grid.RowSpan="2" Name="scherm">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="50"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="Zoekbtn" Height="30" Click="Zoekbtn_Click" Background="AliceBlue"> Zoek: </Button>
+            <TextBox x:Name="ZoekTextBox" Grid.Column="1" Grid.ColumnSpan="2" Height="30" VerticalAlignment="Center"></TextBox>
+            <ListView x:Name="PartijenListBox"
+          BorderBrush="Black"
+          BorderThickness="2"
+          Grid.Row="1"
+          Grid.ColumnSpan="3">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="ID" Width="50"  />
+                        <GridViewColumn Header="Naam" Width="150" />
+                        <GridViewColumn Header="Rol" Width="100"  />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+
+            <Grid Grid.Row="3" Grid.ColumnSpan="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition ></ColumnDefinition>
+                    <ColumnDefinition Width="10"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="10"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button x:Name="verwijderenbtn" Grid.Column="0" Background="#C90606" Grid.Row="1" Foreground="White" FontSize="17" Click="verwijderenbtn_Click"> Verwijderen</Button>
+                <Button x:Name="aanpassenbtn" Grid.Column="2" Background="#C7086A" Grid.Row="1" Foreground="White"  FontSize="17" Click="aanpassenbtn_Click" > Aanpassen</Button>
+                <Button x:Name="toevoegbtn" Grid.Column="4" Background="#06A71E" Grid.Row="1" Foreground="White"  FontSize="17" Click="toevoegbtn_Click"> Toevoegen</Button>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="20"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button x:Name="gebruikersbtn" Grid.Column="1" Grid.Row="0" FontSize="25" Background="#2B2D42" Foreground="White" Click="gebruikersbtn_Click"> Gebruikers  </Button>
+            <Button x:Name="PartijenButton" Grid.Column="1" Grid.Row="2" FontSize="25"  Background="#2B2D42" Foreground="White" Click="PartijenButton_Click"> Partijen  </Button>
+            <Button x:Name="standpuntenbtn" Grid.Column="1" Grid.Row="4" FontSize="25"  Background="#2B2D42" Foreground="White" Click="standpuntenbtn_Click"> Standpunten  </Button>
+            <Button x:Name="verkiezingbtn" Grid.Column="1" Grid.Row="6" FontSize="25"  Background="#2B2D42" Foreground="White" Click="verkiezingbtn_Click"> Verkiezingen  </Button>
+            <Button x:Name="resetbtn" Grid.Column="1" Grid.Row="10" FontSize="25"  Background="#2B2D42" Foreground="White" Click="resetbtn_Click"> Reset </Button>
+            <Button x:Name="nieuwsbtn" Grid.Column="1" Grid.Row="8" FontSize="25"  Background="#2B2D42" Foreground="White" Click="nieuwsbtn_Click"> Nieuws</Button>
+            
+        </Grid>
+    </Grid>
+</Window>

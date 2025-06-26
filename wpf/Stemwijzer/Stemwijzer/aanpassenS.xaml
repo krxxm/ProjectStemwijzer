@@ -1,0 +1,43 @@
+﻿<Window x:Class="Stemwijzer.aanpassenS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stemwijzer"
+        mc:Ignorable="d"
+        Title="aanpassenS" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+            <Viewbox>
+                <TextBlock Margin="10"> Standpunt aanpassen</TextBlock>
+            </Viewbox>
+            <TextBox x:Name="standpunttxt" Grid.Row="0" Grid.Column="1" Height="30"  VerticalAlignment="Bottom" TextChanged="standpunttxt_TextChanged" ></TextBox>
+
+            <Grid Grid.Row="2" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Button x:Name="saanpassenbtn" Grid.Row="2" Grid.Column="1" Background="Black" Foreground="White" Click="saanpassenbtn_Click">Aanpassen</Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

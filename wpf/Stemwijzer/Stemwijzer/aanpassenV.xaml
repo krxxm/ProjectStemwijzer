@@ -1,0 +1,49 @@
+﻿<Window x:Class="Stemwijzer.aanpassenV"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stemwijzer"
+        mc:Ignorable="d"
+        Title="aanpassenV" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Viewbox>
+                <TextBlock Margin="10"> Verkiezing aanpassen</TextBlock>
+            </Viewbox>
+            <TextBox x:Name="titeltxt"  Grid.Row="1" Grid.Column="1" Height="30"  VerticalAlignment="Bottom" ></TextBox>
+            <TextBox x:Name="omschrijvingtxt"  Grid.Row="2" Grid.Column="1" Height="30"  VerticalAlignment="Center" ></TextBox>
+            <TextBlock Grid.Row="3" Grid.Column="1">Begin datum:</TextBlock>
+            <DatePicker x:Name="begindatum" Grid.Row="3" Grid.Column="1" Height="30"  VerticalAlignment="Center"></DatePicker>
+            <TextBlock Grid.Row="4" Grid.Column="1">Eind datum:</TextBlock>
+            <DatePicker x:Name="einddatum" Grid.Row="4" Grid.Column="1" Height="30"  VerticalAlignment="Center"></DatePicker>
+            <Grid Grid.Row="6" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Button x:Name="Vaanpassen" Grid.Row="1" Grid.Column="1" Background="Black" Foreground="White" Click="Vaanpassen_Click">Toevoegen</Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,54 @@
+﻿<Window x:Class="Stemwijzer.toevoegV"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stemwijzer"
+        mc:Ignorable="d"
+        Title="toevoegV" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid x:Name="WachtwoordText">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Viewbox>
+                <TextBlock Margin="10"> Verkiezing toevoegen</TextBlock>
+            </Viewbox>
+            <TextBox x:Name="titeltxt"  Grid.Row="1" Grid.Column="1" Height="30"  VerticalAlignment="Bottom" Text="Titel"></TextBox>
+            <TextBox x:Name="omschrijvingtxt"  Grid.Row="2" Grid.Column="1" Height="30"  VerticalAlignment="Center" Text="Omschrijving"></TextBox>
+            <TextBlock Grid.Row="3" Grid.Column="1" >Begin datum:</TextBlock>
+            <DatePicker x:Name="begindatum" Grid.Row="3" Grid.Column="1" Height="30"   VerticalAlignment="Bottom"></DatePicker>
+            <TextBlock Grid.Row="4" Grid.Column="1">Eind datum:</TextBlock>
+            <DatePicker x:Name="einddatum" Grid.Row="4" Grid.Column="1" Height="30"  VerticalAlignment="Bottom"></DatePicker>
+            <ListBox x:Name="Vpartijbox" Grid.Row="5" Grid.Column="1" SelectionMode="Multiple"   DisplayMemberPath="Naam" Margin="1"></ListBox>
+            <ListBox x:Name="Standpuntbox" Grid.Row="6" Grid.Column="1" Margin="1" SelectionMode="Multiple" DisplayMemberPath="text"></ListBox>
+            <Grid Grid.Row="7" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Button x:Name="Vtoevoegbtn" Grid.Row="1" Grid.Column="1" Background="Black" Foreground="White" Click="Vtoevoegbtn_Click">Toevoegen</Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

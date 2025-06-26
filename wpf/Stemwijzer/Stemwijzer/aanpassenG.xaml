@@ -1,0 +1,51 @@
+﻿<Window x:Class="Stemwijzer.aanpassenG"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Stemwijzer"
+        mc:Ignorable="d"
+        Title="aanpassenG" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Viewbox>
+                <TextBlock Margin="10"> Gebruiker aanpassen</TextBlock>
+            </Viewbox>
+            <TextBox x:Name="naamtxt" Grid.Row="2" Grid.Column="1" Height="30"  VerticalAlignment="Center"  TextChanged="naamtxt_TextChanged"></TextBox>
+          
+
+            <ComboBox x:Name="adminbox" Grid.Row="3" Grid.Column="1" Height="30"  VerticalAlignment="Top" Text="Role" SelectionChanged="adminbox_SelectionChanged">
+                <ComboBoxItem Content="admin" />
+                <ComboBoxItem Content="user" />
+                <ComboBoxItem Content="visitor" />
+            </ComboBox>
+            <Grid Grid.Row="6" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="20"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Button x:Name="Uveranderbtn"  Grid.Row="1" Grid.Column="1" Background="Black" Foreground="White" Click="Uveranderbtn_Click" >Toevoegen</Button>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

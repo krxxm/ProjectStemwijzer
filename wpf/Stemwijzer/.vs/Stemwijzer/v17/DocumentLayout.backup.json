@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|C:\\Users\\merij\\source\\repos\\Stemwijzer\\stemwijzer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|solutionrelative:stemwijzer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|c:\\users\\merij\\source\\repos\\stemwijzer\\stemwijzer\\toevoegv.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|solutionrelative:stemwijzer\\toevoegv.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|C:\\Users\\merij\\source\\repos\\Stemwijzer\\stemwijzer\\toevoegv.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|solutionrelative:stemwijzer\\toevoegv.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|C:\\Users\\merij\\source\\repos\\Stemwijzer\\stemwijzer\\databasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|solutionrelative:stemwijzer\\databasehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|C:\\Users\\merij\\source\\repos\\Stemwijzer\\stemwijzer\\koppeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|solutionrelative:stemwijzer\\koppeling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|C:\\Users\\merij\\source\\repos\\Stemwijzer\\stemwijzer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|solutionrelative:stemwijzer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|C:\\Users\\merij\\source\\repos\\Stemwijzer\\stemwijzer\\partystatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|solutionrelative:stemwijzer\\partystatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|C:\\Users\\merij\\source\\repos\\Stemwijzer\\stemwijzer\\toevoegp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|solutionrelative:stemwijzer\\toevoegp.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|C:\\Users\\merij\\source\\repos\\Stemwijzer\\stemwijzer\\verkiezingen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96C1C5E2-3AEC-4D3E-89EC-C78970EDB72B}|Stemwijzer\\Stemwijzer.csproj|solutionrelative:stemwijzer\\verkiezingen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "koppeling.cs",
+              "DocumentMoniker": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\koppeling.cs",
+              "RelativeDocumentMoniker": "Stemwijzer\\koppeling.cs",
+              "ToolTip": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\koppeling.cs",
+              "RelativeToolTip": "Stemwijzer\\koppeling.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:28:14.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Stemwijzer\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\MainWindow.xaml",
+              "RelativeToolTip": "Stemwijzer\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-08T12:16:07.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "toevoegV.xaml",
+              "DocumentMoniker": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\toevoegV.xaml",
+              "RelativeDocumentMoniker": "Stemwijzer\\toevoegV.xaml",
+              "ToolTip": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\toevoegV.xaml",
+              "RelativeToolTip": "Stemwijzer\\toevoegV.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-18T09:12:05.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "toevoegV.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\toevoegV.xaml.cs",
+              "RelativeDocumentMoniker": "Stemwijzer\\toevoegV.xaml.cs",
+              "ToolTip": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\toevoegV.xaml.cs",
+              "RelativeToolTip": "Stemwijzer\\toevoegV.xaml.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAnwJQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T09:26:31.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Databasehandler.cs",
+              "DocumentMoniker": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\Databasehandler.cs",
+              "RelativeDocumentMoniker": "Stemwijzer\\Databasehandler.cs",
+              "ToolTip": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\Databasehandler.cs",
+              "RelativeToolTip": "Stemwijzer\\Databasehandler.cs",
+              "ViewState": "AgIAAG0BAAAAAAAAAAAAAJoBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:10:46.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Partystatement.cs",
+              "DocumentMoniker": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\Partystatement.cs",
+              "RelativeDocumentMoniker": "Stemwijzer\\Partystatement.cs",
+              "ToolTip": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\Partystatement.cs",
+              "RelativeToolTip": "Stemwijzer\\Partystatement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:54:43.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Stemwijzer\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Stemwijzer\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAM8BAAAAAAAAAAAAAN8BAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T12:16:04.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Verkiezingen.cs",
+              "DocumentMoniker": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\Verkiezingen.cs",
+              "RelativeDocumentMoniker": "Stemwijzer\\Verkiezingen.cs",
+              "ToolTip": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\Verkiezingen.cs",
+              "RelativeToolTip": "Stemwijzer\\Verkiezingen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T12:48:07.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "toevoegP.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\toevoegP.xaml.cs",
+              "RelativeDocumentMoniker": "Stemwijzer\\toevoegP.xaml.cs",
+              "ToolTip": "C:\\Users\\merij\\source\\repos\\Stemwijzer\\Stemwijzer\\toevoegP.xaml.cs",
+              "RelativeToolTip": "Stemwijzer\\toevoegP.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAvwFoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T07:36:50.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
