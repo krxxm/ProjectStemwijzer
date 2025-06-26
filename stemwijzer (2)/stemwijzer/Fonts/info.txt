@@ -1,0 +1,4 @@
+https://fonts.google.com/specimen/Quicksand
+https://fonts.google.com/specimen/Inter
+
+https://www.w3schools.com/css/css3_fonts.asp
